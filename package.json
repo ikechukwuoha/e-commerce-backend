@@ -17,6 +17,8 @@
     "express-fileupload": "^1.4.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.3",
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "paypal-rest-sdk": "^1.8.1",
+    "paystack": "^2.0.1"
   }
 }

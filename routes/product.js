@@ -87,6 +87,10 @@ router.get("/get-all-products/", async (req, res) => {
   }
 });
 
+
+
+module.exports = router;
+
 // //GET USER STATS
 
 // router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
@@ -113,6 +117,3 @@ router.get("/get-all-products/", async (req, res) => {
 //     res.status(500).json(err);
 //   }
 // });
-
-module.exports = router;
-
